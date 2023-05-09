@@ -1,6 +1,8 @@
 import ItemCard from "./ItemCard"
 
-export default function CardCont(){
+export default function CardCont({data}){
+    
+    
     return(
         <div className="cardcontainer">
             <ItemCard/>
